@@ -1,0 +1,12 @@
+[project] # See PEP621 (draft)
+name = "cocktail-playlist"
+version = "0.1"
+python_requires=">=3.8"
+
+[build-system]
+requires = [
+    "setuptools >= 46.1.0",
+    "wheel",
+    "toml"
+]
+build-backend = "setuptools.build_meta"
